@@ -39,5 +39,5 @@ jobs:
     - name: Update dependency graph
       uses: advanced-security/maven-dependency-submission-action@v1
       with:
-        github-token: ${{ secrets.MY_GITHUB_TOKEN }}  # Using your custom PAT
+        token: ${{ secrets.MY_GITHUB_TOKEN }}  # Using your custom PAT
         directory: ./Project
