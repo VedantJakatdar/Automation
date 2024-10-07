@@ -14,7 +14,7 @@ public class Validations extends BaseTest {
 		String password = "Golu@";
 		loginPage.loginMethod(username, password);
 		String errorMessage = loginPage.getErrorMessage();
-		assertEquals(errorMessage, "Incorrect email or password");
+		assertEquals(errorMessage, "Incorrect email or password.");
 	}
 	
 }
